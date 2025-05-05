@@ -3,31 +3,33 @@
 
 @import "{{ site.theme }}";
 
-// Personnalisation supplémentaire
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: #CD5C5C !important;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.main-content h1 {
+  border-bottom: 2px solid #CD5C5C;
+  padding-bottom: 0.5rem;
 }
 
 .page-header {
-  padding: 2rem;
+  background-color: #CD5C5C !important;
+  background-image: linear-gradient(120deg, #CD5C5C, #A04040) !important;
 }
 
-.main-content {
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    margin-top: 2rem;
-  }
-  
-  h1 {
-    border-bottom: 2px solid #CD5C5C;
-    padding-bottom: 0.5rem;
-  }
+.main-content a {
+  color: #CD5C5C !important;
 }
 
-.site-footer {
-  text-align: center;
-  margin-top: 3rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
+.btn {
+  background-color: #CD5C5C !important;
+  color: white !important;
 }
