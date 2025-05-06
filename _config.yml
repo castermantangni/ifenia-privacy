@@ -2,8 +2,8 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
 
-title: Politique de Confidentialité d'Ifenia
-description: Application de gestion de voyages
+title: Ifenia
+description: Gérez vos voyages en toute simplicité
 
 # Personnalisation des couleurs
 colors:
