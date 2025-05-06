@@ -1,0 +1,35 @@
+{% raw %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "fr-FR" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#CD5C5C">
+    <meta name="apple-mobile-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name"><img src="/ifenia-privacy/assets/ifenia_logo.png" alt="Ifenia" height="60"></h1>
+      <h2 class="project-tagline">{{ site.description }}</h2>
+      
+      <!-- Menu de navigation -->
+      <nav class="main-nav">
+        <a href="/ifenia-privacy/" class="btn">Accueil</a>
+        <a href="/ifenia-privacy/features" class="btn">Fonctionnalités</a>
+        <a href="/ifenia-privacy/privacy-policy" class="btn">Confidentialité</a>
+        <a href="/ifenia-privacy/contact" class="btn">Contact</a>
+      </nav>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">© 2025 Ifenia - Développé par Casterman T.</span>
+      </footer>
+    </main>
+  </body>
+</html>
+{% endraw %}
