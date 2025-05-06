@@ -1,35 +1,30 @@
----
----
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
 
-@import "{{ site.theme }}";
+title: Ifenia
+description: Gérez vos voyages en toute simplicité
 
-.main-content h1,
-.main-content h2,
-.main-content h3,
-.main-content h4,
-.main-content h5,
-.main-content h6 {
-  color: #CD5C5C !important;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  font-weight: 600;
-}
+# Personnalisation des couleurs
+colors:
+  header-bg: "#CD5C5C"    # Rouge saumon foncé (Indian Red)
+  header-text: "#FFFFFF"   # Texte blanc pour le contraste
+  link: "#CD5C5C"          # Liens en rouge saumon
+  btn-primary-bg: "#CD5C5C"
+  btn-primary-text: "#FFFFFF"
 
-.main-content h1 {
-  border-bottom: 2px solid #CD5C5C;
-  padding-bottom: 0.5rem;
-}
-
-.page-header {
-  background-color: #CD5C5C !important;
-  background-image: linear-gradient(120deg, #CD5C5C, #A04040) !important;
-}
-
-.main-content a {
-  color: #CD5C5C !important;
-}
-
-.btn {
-  background-color: #CD5C5C !important;
-  color: white !important;
-}
+# Style personnalisé
+style: |
+  .page-header {
+    background-color: #CD5C5C !important;
+    background-image: linear-gradient(120deg, #CD5C5C, #A04040) !important;
+  }
+  .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color: #CD5C5C !important;
+  }
+  .main-content a {
+    color: #CD5C5C !important;
+  }
+  .btn {
+    background-color: #CD5C5C !important;
+  }
