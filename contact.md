@@ -10,7 +10,7 @@ Vous avez des questions, des suggestions ou vous avez rencontré un problème av
 ## Email
 
 Pour toute demande d'assistance ou question, écrivez-nous à :  
-[casterman.tangni@gmail.com](mailto:casterman.tangni@gmail.com)
+[contact.ifenia@gmail.com](mailto:contact.ifenia@gmail.com)
 
 ## Support technique
 
