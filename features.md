@@ -46,7 +46,7 @@ Découvrez tout ce qu'Ifenia peut faire pour organiser vos voyages parfaitement.
 - **Fonctionnement hors-ligne** : Accédez à vos informations même sans connexion internet
 
 <div class="screenshot-gallery">
-  <img src="assets/screenshots/screenshot1.png" alt="Écran d'accueil" width="250">
-  <img src="assets/screenshots/screenshot2.png" alt="Détails du voyage" width="250">
-  <img src="assets/screenshots/screenshot3.png" alt="Gestion du budget" width="250">
+  <img src="screenshots/screenshot1.jpg" alt="Écran d'accueil" width="250">
+  <img src="screenshots/screenshot2.jpg" alt="Détails du voyage" width="250">
+  <img src="screenshots/screenshot3.jpg" alt="Gestion du budget" width="250">
 </div>
