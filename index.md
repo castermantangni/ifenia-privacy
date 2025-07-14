@@ -28,7 +28,7 @@ Que vous planifiez un week-end, des vacances ou un voyage d'affaires, Ifenia vou
   <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia">
     <img src="assets/google-play-badge.jpg" alt="Disponible sur Google Play" width="180">
   </a>
-  <a href="#">
+  <a href="https://apps.apple.com/fr/app/ifenia/id6746134277">
     <img src="assets/app-store-badge.png" alt="Bientôt disponible sur l'App Store" width="180">
   </a>
 </div>
