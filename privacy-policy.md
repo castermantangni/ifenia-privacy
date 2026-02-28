@@ -1,4 +1,11 @@
-# Politique de Confidentialité - Ifenia
+---
+layout: default
+title: Politique de Confidentialité — Ifenia
+---
+
+<div class="prose">
+
+# Politique de Confidentialité — Ifenia
 
 ## Introduction
 
@@ -42,6 +49,8 @@ Notre application utilise les services tiers suivants :
 
 - **Firebase** : pour l'authentification, le stockage de données et l'analyse d'utilisation
 - **Google Places API** : pour les suggestions de destination et d'activités
+- **Open-Meteo** : pour les données météorologiques
+- **Google Maps** : pour la cartographie interactive
 
 Chacun de ces services tiers a sa propre politique de confidentialité qui régit leur utilisation de vos informations.
 
@@ -55,7 +64,7 @@ Nous ne vendons pas vos données personnelles. Nous partageons vos informations 
 
 ## Sécurité des données
 
-Nous prenons des mesures raisonnables pour protéger vos informations contre la perte, le vol, l'utilisation abusive et l'accès non autorisé.
+Nous prenons des mesures raisonnables pour protéger vos informations contre la perte, le vol, l'utilisation abusive et l'accès non autorisé. Firebase App Check (Play Integrity) et Firebase Crashlytics sont utilisés pour garantir la sécurité et la stabilité de l'application.
 
 ## Vos droits
 
@@ -75,8 +84,10 @@ Nous pouvons mettre à jour cette politique de confidentialité périodiquement.
 
 Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à :
 
-Email : [casterman.tangni@gmail.com]
+**Email :** [contact.ifenia@gmail.com](mailto:contact.ifenia@gmail.com)
 
-## Informations spécifiques pour les utilisateurs d'Android
+## Informations spécifiques pour les utilisateurs Android
 
-Notre application est disponible sur Google Play Store et collecte les informations conformément à cette politique de confidentialité.
+Notre application est disponible sur Google Play Store et collecte les informations conformément à cette politique de confidentialité. Firebase App Check avec Play Integrity est utilisé pour protéger l'application contre les usages abusifs.
+
+</div>

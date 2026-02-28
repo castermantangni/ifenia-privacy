@@ -1,35 +1,131 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "fr-FR" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#CD5C5C">
-    <meta name="apple-mobile-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">
-        <img src="/ifenia-privacy/assets/ifenia_logo.png" alt="Ifenia" height="60">
-      </h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
-      
-      <!-- Menu de navigation -->
-      <nav class="main-nav">
-        <a href="/ifenia-privacy/" class="btn">Accueil</a>
-        <a href="/ifenia-privacy/features" class="btn">Fonctionnalités</a>
-        <a href="/ifenia-privacy/privacy-policy" class="btn">Confidentialité</a>
-        <a href="/ifenia-privacy/contact" class="btn">Contact</a>
-      </nav>
-    </header>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0D1525">
+  <meta name="apple-mobile-app-status-bar-style" content="black-translucent">
+  <title>{% if page.title %}{{ page.title }}{% else %}Ifenia{% endif %}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head-custom.html %}
+</head>
+<body>
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav class="site-nav" id="siteNav">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">
+        <img src="{{ '/assets/ifenia_logo.png' | relative_url }}" alt="Ifenia" height="34">
+        <span class="nav-logo-text">Ifenia</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="{{ '/' | relative_url }}" class="nav-link">Accueil</a>
+        <a href="{{ '/features' | relative_url }}" class="nav-link">Fonctionnalités</a>
+        <a href="{{ '/privacy-policy' | relative_url }}" class="nav-link">Confidentialité</a>
+        <a href="{{ '/contact' | relative_url }}" class="nav-link">Contact</a>
+        <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia" class="nav-cta" target="_blank" rel="noopener">Télécharger</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner">© 2025 Ifenia - Développé par Casterman T.</span>
-      </footer>
-    </main>
-  </body>
+  <!-- ═══ CONTENU PRINCIPAL ═══ -->
+  <main id="content" role="main">
+    {{ content }}
+  </main>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="{{ '/assets/ifenia_logo.png' | relative_url }}" alt="Ifenia" height="44">
+        <p class="footer-tagline">L'art de voyager, réinventé.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <a href="{{ '/' | relative_url }}">Accueil</a>
+          <a href="{{ '/features' | relative_url }}">Fonctionnalités</a>
+          <a href="{{ '/contact' | relative_url }}">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Légal</h4>
+          <a href="{{ '/privacy-policy' | relative_url }}">Politique de confidentialité</a>
+        </div>
+        <div class="footer-col">
+          <h4>Télécharger</h4>
+          <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia" target="_blank" rel="noopener">Google Play</a>
+          <a href="https://apps.apple.com/fr/app/ifenia/id6746134277" target="_blank" rel="noopener">App Store</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-divider"></div>
+      <p>&copy; 2026 Ifenia &mdash; Développé par Casterman T. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script>
+    // ─── Navbar scroll ───
+    const nav = document.getElementById('siteNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    // ─── Mobile nav ───
+    const toggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      toggle.classList.toggle('active');
+      document.body.classList.toggle('nav-open');
+    });
+
+    // ─── Close nav on link click ───
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        toggle.classList.remove('active');
+        document.body.classList.remove('nav-open');
+      });
+    });
+
+    // ─── Tab system ───
+    function initTabs() {
+      document.querySelectorAll('.tab-list').forEach(list => {
+        list.querySelectorAll('.tab-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const target = btn.dataset.target;
+            const showcase = btn.closest('.tabs-showcase');
+            list.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            showcase.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+            btn.classList.add('active');
+            const pane = document.getElementById(target);
+            if (pane) pane.classList.add('active');
+          });
+        });
+      });
+    }
+
+    // ─── Intersection observer for fade-in ───
+    function initReveal() {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(el => {
+          if (el.isIntersecting) {
+            el.target.classList.add('revealed');
+            observer.unobserve(el.target);
+          }
+        });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      initTabs();
+      initReveal();
+    });
+  </script>
+</body>
 </html>
