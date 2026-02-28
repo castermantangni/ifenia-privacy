@@ -22,6 +22,15 @@
   --gold-border:  rgba(200, 169, 110, 0.2);
   --gold-glow:    rgba(200, 169, 110, 0.12);
 
+  /* Ivory palette for light sections */
+  --ivory:        #F8F4EE;
+  --ivory-mid:    #F0EBE1;
+  --ivory-card:   #FFFFFF;
+  --ink:          #0A1222;
+  --ink-mid:      #2A3850;
+  --ink-muted:    #5A6878;
+  --ink-subtle:   #8A96A4;
+
   --cream:        #FAF6EE;
   --text:         #E0D8C8;
   --text-muted:   #8A96AE;
@@ -48,8 +57,8 @@
 html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
-  background: var(--navy);
-  color: var(--text);
+  background: var(--ivory);
+  color: var(--ink-mid);
   font-family: var(--ff-sans);
   font-weight: 300;
   line-height: 1.75;
@@ -248,8 +257,86 @@ h1, h2, h3, h4 {
   margin-bottom: 4rem;
 }
 .section--dark  { background: var(--midnight); }
-.section--navy  { background: var(--navy); }
 .section--mid   { background: var(--navy-mid); }
+
+/* ── Light (ivory) sections ─────────────────────────────────── */
+.section--navy  { background: var(--ivory); }
+
+.section--navy .section-title       { color: var(--ink); }
+.section--navy .section-sub         { color: var(--ink-muted); }
+.section--navy .eyebrow             { color: var(--gold); }
+.section--navy .gold-divider::before,
+.section--navy .gold-divider::after { background: linear-gradient(to right, transparent, rgba(200,169,110,0.35)); }
+
+/* Cards */
+.section--navy .feature-card {
+  background: var(--ivory-card);
+  border-color: rgba(200,169,110,0.22);
+  box-shadow: 0 4px 24px rgba(10,18,34,0.07), 0 1px 3px rgba(10,18,34,0.05);
+  backdrop-filter: none;
+}
+.section--navy .feature-card::before {
+  background: linear-gradient(90deg, transparent, rgba(200,169,110,0.2), transparent);
+}
+.section--navy .feature-card:hover {
+  box-shadow: 0 20px 60px rgba(10,18,34,0.13), 0 0 30px rgba(200,169,110,0.12);
+}
+.section--navy .feature-card:hover::before {
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+.section--navy .feature-card h3 { color: var(--ink); }
+.section--navy .feature-card p  { color: var(--ink-muted); }
+
+/* Contact cards */
+.section--navy .contact-card {
+  background: var(--ivory-card);
+  border-color: rgba(200,169,110,0.22);
+  box-shadow: 0 4px 24px rgba(10,18,34,0.07);
+}
+.section--navy .contact-card:hover {
+  box-shadow: 0 20px 55px rgba(10,18,34,0.13), 0 0 25px rgba(200,169,110,0.12);
+}
+.section--navy .contact-card h3 { color: var(--ink); }
+.section--navy .contact-card p  { color: var(--ink-muted); }
+
+/* Feature detail list */
+.section--navy .feature-section-header h2 { color: var(--ink); }
+.section--navy .feature-section { border-bottom-color: rgba(10,18,34,0.1); }
+.section--navy .feature-list li {
+  background: var(--ivory-card);
+  border-color: rgba(200,169,110,0.2);
+  color: var(--ink-muted);
+  box-shadow: 0 1px 4px rgba(10,18,34,0.05);
+}
+.section--navy .feature-list li:hover {
+  background: #FEF9F2;
+  border-color: rgba(200,169,110,0.45);
+}
+
+/* Tech stack */
+.section--navy .tech-item {
+  background: var(--ivory-card);
+  border-color: rgba(200,169,110,0.2);
+  box-shadow: 0 1px 4px rgba(10,18,34,0.05);
+}
+.section--navy .tech-item:hover {
+  background: #FEF9F2;
+  border-color: rgba(200,169,110,0.4);
+}
+.section--navy .tech-value { color: var(--ink-muted); }
+
+/* Tab cards */
+.section--navy .tab-card {
+  background: var(--ivory-card);
+  border-color: rgba(200,169,110,0.22);
+  box-shadow: 0 2px 12px rgba(10,18,34,0.06);
+}
+.section--navy .tab-card:hover {
+  box-shadow: 0 10px 30px rgba(10,18,34,0.12);
+}
+.section--navy .tab-card span { color: var(--ink-muted); }
+
+/* Gallery captions already have gradient overlay — keep as is */
 
 /* ── Gold Divider ──────────────────────────────────────────── */
 .gold-divider {
@@ -867,37 +954,38 @@ h1, h2, h3, h4 {
 }
 .prose h1 {
   font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--ink);
   margin-bottom: 2rem;
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid var(--gold-border);
+  border-bottom: 1px solid rgba(200,169,110,0.25);
 }
 .prose h2 {
   font-size: 1.55rem;
   margin: 3.5rem 0 1.25rem;
   padding-left: 1rem;
   border-left: 3px solid var(--gold);
-  color: var(--gold-pale);
+  color: var(--ink);
 }
 .prose h3 {
   font-size: 1.15rem;
   margin: 2rem 0 0.75rem;
-  color: var(--gold-bright);
+  color: var(--ink-mid);
 }
 .prose p {
-  color: var(--text-muted);
+  color: var(--ink-muted);
   font-size: 0.95rem;
   line-height: 1.9;
 }
 .prose ul { padding-left: 1.5rem; margin-bottom: 1.5rem; }
 .prose li {
-  color: var(--text-muted);
+  color: var(--ink-muted);
   font-size: 0.92rem;
   line-height: 1.8;
   margin-bottom: 0.4rem;
 }
-.prose strong { color: var(--text); font-weight: 500; }
+.prose strong { color: var(--ink-mid); font-weight: 500; }
 .prose a { color: var(--gold); }
-.prose a:hover { color: var(--gold-bright); }
+.prose a:hover { color: #B8924A; }
 
 /* ── Footer ────────────────────────────────────────────────── */
 .site-footer {
@@ -912,7 +1000,14 @@ h1, h2, h3, h4 {
   grid-template-columns: 2fr 3fr;
   gap: 4rem;
 }
-.footer-brand img { margin-bottom: 1.25rem; }
+.footer-brand img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--gold-border);
+  margin-bottom: 1.25rem;
+}
 .footer-tagline {
   font-family: var(--ff-serif);
   font-size: 1.05rem;
