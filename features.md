@@ -190,64 +190,6 @@ title: Fonctionnalités — Ifenia
       </ul>
     </div>
 
-    <!-- Stack technique -->
-    <div class="feature-section reveal">
-      <div class="feature-section-header">
-        <span class="ico">🛠️</span>
-        <h2>Stack technique</h2>
-      </div>
-      <div class="tech-grid">
-        <div class="tech-item">
-          <span class="tech-label">Framework</span>
-          <span class="tech-value">Flutter 3.33 / Dart 3.7</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Auth</span>
-          <span class="tech-value">Firebase Authentication</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Base de données</span>
-          <span class="tech-value">Cloud Firestore</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Stockage</span>
-          <span class="tech-value">Firebase Storage</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Push</span>
-          <span class="tech-value">Firebase FCM</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">State</span>
-          <span class="tech-value">Provider / ChangeNotifier</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Carte</span>
-          <span class="tech-value">Google Maps Flutter</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Météo</span>
-          <span class="tech-value">Open-Meteo API</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">PDF</span>
-          <span class="tech-value">pdf + printing</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Polices</span>
-          <span class="tech-value">Playfair Display + Lato</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">Monitoring</span>
-          <span class="tech-value">Crashlytics + App Check</span>
-        </div>
-        <div class="tech-item">
-          <span class="tech-label">QR Code</span>
-          <span class="tech-value">qr_flutter</span>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
 

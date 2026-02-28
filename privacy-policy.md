@@ -3,7 +3,7 @@ layout: default
 title: Politique de Confidentialité — Ifenia
 ---
 
-<div class="prose">
+<div class="prose" markdown="1">
 
 # Politique de Confidentialité — Ifenia
 
