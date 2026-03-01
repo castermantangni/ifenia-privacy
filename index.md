@@ -1,292 +1,292 @@
 ---
 layout: default
-title: Ifenia — L'art de voyager, réinventé
+title: Ifenia — L'app tout-en-un pour voyager à plusieurs
 ---
 
-<!-- ═══════════════════════════════════════════════════════════
-     HERO
-═══════════════════════════════════════════════════════════ -->
+<!-- ═══ HERO ══════════════════════════════════════════════════ -->
 <section class="hero">
-  <div class="hero-content">
-    <img src="assets/ifenia_logo.png" alt="Ifenia" class="hero-logo">
+  <div class="hero-inner">
 
-    <p class="eyebrow">Application mobile · iOS &amp; Android</p>
+    <div class="hero-text reveal">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Disponible sur Google Play
+      </div>
 
-    <h1 class="hero-title">
-      L'art de<br>voyager, <em>réinventé.</em>
-    </h1>
+      <h1 class="hero-title">
+        Planifiez.<br>
+        Partagez.<br>
+        <em>Vivez.</em>
+      </h1>
 
-    <p class="hero-subtitle">
-      Planifiez, partagez et vivez chaque aventure avec une application mobile pensée pour les voyageurs exigeants.
-    </p>
+      <p class="hero-sub">
+        L'application tout-en-un pour organiser vos voyages à plusieurs. Roadbook, dépenses partagées, météo, photos et bien plus — tout en temps réel, depuis votre mobile.
+      </p>
 
-    <div class="hero-actions">
-      <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia" class="btn-primary" target="_blank" rel="noopener">
-        Google Play
-      </a>
-      <a href="https://apps.apple.com/fr/app/ifenia/id6746134277" class="btn-secondary" target="_blank" rel="noopener">
-        App Store
-      </a>
+      <div class="btn-group">
+        <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia" class="btn btn--gold" target="_blank" rel="noopener">
+          Télécharger gratuitement
+        </a>
+        <a href="features" class="btn btn--outline">
+          Voir les fonctionnalités
+        </a>
+      </div>
     </div>
-  </div>
 
-  <div class="hero-scroll">
-    <div class="scroll-line"></div>
-    <span>Découvrir</span>
+    <div class="hero-phones reveal reveal-delay-2">
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-lieux.jpg" alt="Exploration de lieux">
+      </div>
+      <div class="phone phone--lg">
+        <img src="screenshotsV2/s-accueil.jpg" alt="Écran d'accueil Ifenia">
+      </div>
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-detail.jpg" alt="Détail d'un voyage">
+      </div>
+    </div>
+
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     STATS
-═══════════════════════════════════════════════════════════ -->
-<div class="stats-strip">
-  <div class="stats-grid">
-    <div class="reveal">
-      <span class="stat-number">7</span>
-      <span class="stat-label">Onglets par voyage</span>
-    </div>
-    <div class="reveal">
-      <span class="stat-number">7</span>
-      <span class="stat-label">Thèmes de couleur</span>
-    </div>
-    <div class="reveal">
-      <span class="stat-number">4</span>
-      <span class="stat-label">Devises supportées</span>
-    </div>
-    <div class="reveal">
-      <span class="stat-number">PDF</span>
-      <span class="stat-label">Export natif inclus</span>
-    </div>
+<!-- ═══ TRUST BAR ═════════════════════════════════════════════ -->
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><span class="trust-icon">✅</span> 100 % gratuit</div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><span class="trust-icon">📱</span> Android &amp; iOS</div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><span class="trust-icon">🎨</span> 10 thèmes de couleur</div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><span class="trust-icon">🔒</span> Données sécurisées Firebase</div>
+    <div class="trust-sep"></div>
+    <div class="trust-item"><span class="trust-icon">🌐</span> FR · EN</div>
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════════════════════
-     FONCTIONNALITÉS PRINCIPALES
-═══════════════════════════════════════════════════════════ -->
-<section class="section section--navy">
+<!-- ═══ VALEUR AJOUTÉE ════════════════════════════════════════ -->
+<section class="section section--ivory">
   <div class="section-inner">
     <div class="section-header">
-      <p class="eyebrow">Fonctionnalités</p>
-      <h2 class="section-title">Tout ce dont vous avez besoin,<br>au même endroit.</h2>
-      <div class="gold-divider"><span></span></div>
-      <p class="section-sub">Ifenia centralise chaque aspect de votre voyage dans une interface élégante et intuitive.</p>
+      <p class="eyebrow">Pourquoi Ifenia ?</p>
+      <h2 class="headline headline--dark reveal">Une seule app.<br>Tout ce qu'il faut.</h2>
+      <div class="divider reveal"><span></span></div>
+      <p class="subline subline--dark reveal" style="margin: 0 auto;">Fini les onglets WhatsApp pour le budget, les Google Sheets pour les listes et les PDF perdus. Ifenia réunit tout au même endroit.</p>
     </div>
 
-    <div class="features-grid">
-      <div class="feature-card reveal">
-        <span class="feature-icon">✈️</span>
-        <h3>Gestion des voyages</h3>
-        <p>Créez vos voyages avec autocomplétion Google Places, catégorie, dates, budget, devise et image. Partagez via QR code ou code d'invitation.</p>
+    <div class="vp-grid">
+      <div class="vp-card reveal">
+        <div class="vp-icon">🗓️</div>
+        <h3>Organisation complète</h3>
+        <p>Roadbook jour par jour, checklists personnalisables, météo intégrée sur 16 jours, export PDF de tout votre voyage en un tap.</p>
       </div>
-      <div class="feature-card reveal">
-        <span class="feature-icon">👥</span>
-        <h3>Collaboration temps réel</h3>
-        <p>Invitez famille et amis par email ou code. Chat intégré, rôles owner/éditeur, notifications push FCM automatiques à chaque modification.</p>
+      <div class="vp-card reveal reveal-delay-1">
+        <div class="vp-icon">👥</div>
+        <h3>Voyage à plusieurs, sans friction</h3>
+        <p>Invitez vos compagnons en 2 secondes par QR code. Chat temps réel, dépenses partagées avec calcul automatique des soldes, sondages de groupe.</p>
       </div>
-      <div class="feature-card reveal">
-        <span class="feature-icon">🗺️</span>
-        <h3>Roadbook &amp; Carte</h3>
-        <p>Itinéraire unifié trié par jour et heure. Carte Google Maps plein écran avec marqueurs colorés par type de créneau et InfoWindow au tap.</p>
-      </div>
-      <div class="feature-card reveal">
-        <span class="feature-icon">💳</span>
-        <h3>Finances partagées</h3>
-        <p>Dépenses partagées avec répartition configurable. Calcul automatique des soldes — qui doit combien à qui — en multi-devises (EUR, USD, GBP, XOF).</p>
-      </div>
-      <div class="feature-card reveal">
-        <span class="feature-icon">⛅</span>
-        <h3>Météo intelligente</h3>
-        <p>Prévisions quotidiennes Open-Meteo pour toute la période du voyage. Températures min/max, emojis WMO, 16 jours à l'avance ou archives.</p>
-      </div>
-      <div class="feature-card reveal">
-        <span class="feature-icon">🌍</span>
-        <h3>Communauté</h3>
-        <p>Partagez vos listes, découvrez les créations de la communauté, likez, mettez en favoris et importez directement dans vos voyages.</p>
+      <div class="vp-card reveal reveal-delay-2">
+        <div class="vp-icon">🧳</div>
+        <h3>Les outils du voyageur</h3>
+        <p>Convertisseur de devises intégré, phrasebook en 8 langues, exploration Google Places (lieux, hôtels, restaurants) — tout pour voyager serein.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     7 ONGLETS DU DÉTAIL VOYAGE
-═══════════════════════════════════════════════════════════ -->
-<section class="section section--dark">
-  <div class="section-inner">
-    <div class="section-header">
-      <p class="eyebrow">7 onglets intégrés</p>
-      <h2 class="section-title">Un voyage, une vision complète.</h2>
-      <div class="gold-divider"><span></span></div>
-      <p class="section-sub">Chaque voyage dispose de sept onglets dédiés, pensés pour couvrir tous les aspects de votre séjour.</p>
+<!-- ═══ FEATURE ROW 1 — Roadbook ══════════════════════════════ -->
+<section class="section--dark" style="border-top: 1px solid rgba(200,169,110,0.15);">
+  <div class="feature-row">
+    <div class="feature-text reveal">
+      <p class="eyebrow eyebrow--left">Roadbook &amp; Carte</p>
+      <h2>Votre itinéraire,<br>organisé <em>à la perfection.</em></h2>
+      <div class="divider divider--left"><span></span></div>
+      <p>Le Roadbook unifie vos créneaux et vos items de listes datés en une vue chronologique claire. Chaque jour, visualisez d'un coup d'œil où vous allez et ce que vous faites.</p>
+      <ul class="feature-points">
+        <li>Créneaux avec heure, lieu, type et description</li>
+        <li>5 types : visite · restaurant · hôtel · transport · activité</li>
+        <li>Carte Google Maps plein écran avec marqueurs colorés par type</li>
+        <li>Export du roadbook complet dans le PDF du voyage</li>
+      </ul>
     </div>
-
-    <div class="tabs-showcase reveal">
-      <div class="tab-list">
-        <button class="tab-btn active" data-target="tab-listes">✓ Listes</button>
-        <button class="tab-btn" data-target="tab-roadbook">🗺️ Roadbook</button>
-        <button class="tab-btn" data-target="tab-meteo">⛅ Météo</button>
-        <button class="tab-btn" data-target="tab-messages">💬 Messages</button>
-        <button class="tab-btn" data-target="tab-depenses">💳 Dépenses</button>
-        <button class="tab-btn" data-target="tab-photos">📸 Photos</button>
-        <button class="tab-btn" data-target="tab-votes">🗳️ Votes</button>
-      </div>
-
-      <div class="tab-content-area">
-
-        <div class="tab-pane active" id="tab-listes">
-          <div class="tab-pane-text">
-            <h3>Listes &amp; Checklists</h3>
-            <p>Organisez chaque détail avec des checklists personnalisables dotées de titres, états cochés, budgets et dates.</p>
-            <ul>
-              <li>3 listes pré-créées à la création du voyage : Indispensables · À faire avant de partir · À visiter</li>
-              <li>Activation budget par liste — suivi par item</li>
-              <li>Métadonnées collaboratives : qui a modifié, quand</li>
-              <li>Suggestions d'activités Google Places auto-ajoutées</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">✅</span>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="tab-roadbook">
-          <div class="tab-pane-text">
-            <h3>Roadbook</h3>
-            <p>Vue unifiée de l'itinéraire et des items de listes datés, triés par jour puis par heure avec tags visuels distincts.</p>
-            <ul>
-              <li>Ajout, édition et suppression de créneaux (heure, titre, type, lieu, description)</li>
-              <li>5 types de créneaux : visite, restaurant, hôtel, transport, activité</li>
-              <li>Bouton direct vers la carte Google Maps</li>
-              <li>Vision jour par jour de l'aventure entière</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">🗺️</span>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="tab-meteo">
-          <div class="tab-pane-text">
-            <h3>Météo</h3>
-            <p>Prévisions quotidiennes pour la destination, alimentées par Open-Meteo — gratuit et précis jusqu'à 16 jours.</p>
-            <ul>
-              <li>Température minimale et maximale par jour</li>
-              <li>Emoji météo WMO standardisés</li>
-              <li>Support voyages passés (archives) et futurs</li>
-              <li>Aucun abonnement requis — API gratuite</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">⛅</span>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="tab-messages">
-          <div class="tab-pane-text">
-            <h3>Messagerie</h3>
-            <p>Chat en temps réel entre tous les collaborateurs du voyage, directement intégré dans l'application.</p>
-            <ul>
-              <li>Messages instantanés via Firestore temps réel</li>
-              <li>Historique complet de la conversation</li>
-              <li>Nom de l'expéditeur affiché</li>
-              <li>Isolé par voyage — pas de confusion entre projets</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">💬</span>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="tab-depenses">
-          <div class="tab-pane-text">
-            <h3>Dépenses</h3>
-            <p>Gérez les finances du groupe : saisissez chaque dépense, définissez qui paie et comment répartir.</p>
-            <ul>
-              <li>Montant, payeur et répartition entre participants</li>
-              <li>Calcul automatique des soldes par personne</li>
-              <li>Résumé clair : qui doit combien à qui</li>
-              <li>Inclus dans l'export PDF du voyage</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">💳</span>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="tab-photos">
-          <div class="tab-pane-text">
-            <h3>Album photos</h3>
-            <p>Album collaboratif partagé entre tous les membres du voyage, accessible depuis l'application.</p>
-            <ul>
-              <li>Grille 3 colonnes, upload compressé (70 %, 1000×1000 px)</li>
-              <li>Affichage plein écran au tap</li>
-              <li>Suppression par l'auteur ou le propriétaire du voyage</li>
-              <li>Stockage sécurisé Firebase Storage</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">📸</span>
-          </div>
-        </div>
-
-        <div class="tab-pane" id="tab-votes">
-          <div class="tab-pane-text">
-            <h3>Sondages &amp; Votes</h3>
-            <p>Prenez les décisions de groupe facilement avec des sondages interactifs en temps réel.</p>
-            <ul>
-              <li>Création avec 2 à 4 options personnalisées</li>
-              <li>Vote par simple tap — résultats instantanés</li>
-              <li>Barres de progression live synchronisées</li>
-              <li>Fermeture du sondage par le propriétaire du voyage</li>
-            </ul>
-          </div>
-          <div class="tab-pane-visual">
-            <span class="tab-icon-large">🗳️</span>
-          </div>
-        </div>
-
+    <div class="feature-phone reveal reveal-delay-1">
+      <div class="phone phone--lg">
+        <img src="screenshotsV2/s-detail.jpg" alt="Roadbook Ifenia">
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     SCREENSHOTS
-═══════════════════════════════════════════════════════════ -->
-<section class="section section--navy">
+<!-- ═══ FEATURE ROW 2 — Exploration ══════════════════════════ -->
+<section class="section--ivory" style="border-top: 1px solid rgba(10,18,34,0.06);">
+  <div class="feature-row reverse">
+    <div class="feature-text reveal">
+      <p class="eyebrow eyebrow--left">Exploration</p>
+      <h2>Explorez<br><em>avant même</em> de partir.</h2>
+      <div class="divider divider--left"><span></span></div>
+      <p>Recherchez des lieux, hôtels et restaurants directement dans l'app grâce à Google Places. Ajoutez vos coups de cœur à votre liste "À visiter" en un tap.</p>
+      <ul class="feature-points">
+        <li>3 onglets : Lieux &amp; Attractions · Hôtels · Restaurants</li>
+        <li>Top 10 résultats Google Places avec photos et ratings</li>
+        <li>Filtrage par type de cuisine pour les restaurants</li>
+        <li>Ajout direct à votre liste "À visiter"</li>
+      </ul>
+    </div>
+    <div class="feature-phone reveal reveal-delay-1">
+      <div class="phone phone--lg">
+        <img src="screenshotsV2/s-hotels.jpg" alt="Recherche d'hôtels Ifenia">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FEATURE ROW 3 — Communauté ═══════════════════════════ -->
+<section class="section--dark" style="border-top: 1px solid rgba(200,169,110,0.15);">
+  <div class="feature-row">
+    <div class="feature-text reveal">
+      <p class="eyebrow eyebrow--left">Communauté</p>
+      <h2>Décidez ensemble.<br><em>Voyagez</em> ensemble.</h2>
+      <div class="divider divider--left"><span></span></div>
+      <p>Partagez vos listes avec la communauté, découvrez les itinéraires d'autres voyageurs, et importez-les directement dans votre voyage. Les sondages intégrés facilitent les décisions de groupe.</p>
+      <ul class="feature-points">
+        <li>Partager une liste vers la communauté en un tap</li>
+        <li>Découvrir : récentes · populaires · favoris</li>
+        <li>Like, favori et import direct dans un voyage</li>
+        <li>Sondages en temps réel avec barres de progression live</li>
+      </ul>
+    </div>
+    <div class="feature-phone reveal reveal-delay-1">
+      <div class="phone phone--lg">
+        <img src="screenshotsV2/s-communaute.jpg" alt="Communauté Ifenia">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ COMMENT ÇA MARCHE ══════════════════════════════════════ -->
+<section class="section section--ivory">
   <div class="section-inner">
     <div class="section-header">
-      <p class="eyebrow">Aperçu de l'application</p>
-      <h2 class="section-title">Conçu pour être beau,<br>pensé pour être utile.</h2>
-      <div class="gold-divider"><span></span></div>
+      <p class="eyebrow">Simple &amp; rapide</p>
+      <h2 class="headline headline--dark reveal">Partez en 4 étapes.</h2>
+      <div class="divider reveal"><span></span></div>
     </div>
 
-    <div class="gallery-wrap">
-      <div class="gallery-grid">
-        <div class="gallery-item reveal">
-          <img src="screenshots/screenshot1.jpg" alt="Écran d'accueil Ifenia">
-          <div class="gallery-caption">Mes Voyages</div>
+    <div class="steps-grid">
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <h3>Créez votre voyage</h3>
+        <p>Destination (Google Places), dates, budget, devise, catégorie et image de couverture.</p>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="step-num">2</div>
+        <h3>Invitez vos compagnons</h3>
+        <p>Par QR code ou code 8 caractères — vos amis rejoignent le voyage en quelques secondes.</p>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="step-num">3</div>
+        <h3>Planifiez ensemble</h3>
+        <p>Roadbook, checklists, dépenses, chat, sondages — tout se synchronise en temps réel.</p>
+      </div>
+      <div class="step reveal reveal-delay-3">
+        <div class="step-num">4</div>
+        <h3>Vivez l'aventure</h3>
+        <p>Météo, carte, album photo collaboratif — et exportez le tout en PDF à la fin.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ MINI FEATURES GRID ════════════════════════════════════ -->
+<section class="section section--white" style="border-top: 1px solid rgba(10,18,34,0.06);">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="eyebrow">Et bien plus encore</p>
+      <h2 class="headline headline--dark reveal">Toutes les fonctionnalités<br>dont vous avez besoin.</h2>
+      <div class="divider reveal"><span></span></div>
+    </div>
+
+    <div class="mini-grid">
+      <div class="mini-card reveal">
+        <span class="mini-card-icon">⛅</span>
+        <div>
+          <h4>Météo 16 jours</h4>
+          <p>Prévisions quotidiennes Open-Meteo pour toute la période du voyage. Températures min/max et emojis météo.</p>
         </div>
-        <div class="gallery-item reveal">
-          <img src="screenshots/screenshot2.jpg" alt="Détail d'un voyage">
-          <div class="gallery-caption">Détail &amp; Onglets</div>
+      </div>
+      <div class="mini-card reveal reveal-delay-1">
+        <span class="mini-card-icon">📸</span>
+        <div>
+          <h4>Album photo collaboratif</h4>
+          <p>Grille 3 colonnes, upload compressé, affichage plein écran. Chaque collaborateur peut contribuer.</p>
         </div>
-        <div class="gallery-item reveal">
-          <img src="screenshots/screenshot3.jpg" alt="Gestion du budget">
-          <div class="gallery-caption">Finances &amp; Dépenses</div>
+      </div>
+      <div class="mini-card reveal reveal-delay-2">
+        <span class="mini-card-icon">💳</span>
+        <div>
+          <h4>Dépenses partagées</h4>
+          <p>Saisissez les dépenses, définissez qui paie et la répartition. Soldes calculés automatiquement.</p>
+        </div>
+      </div>
+      <div class="mini-card reveal">
+        <span class="mini-card-icon">📄</span>
+        <div>
+          <h4>Export PDF complet</h4>
+          <p>Couverture, roadbook, listes et dépenses réunis en un seul document. Partagez ou imprimez.</p>
+        </div>
+      </div>
+      <div class="mini-card reveal reveal-delay-1">
+        <span class="mini-card-icon">🗣️</span>
+        <div>
+          <h4>Phrasebook 8 langues</h4>
+          <p>Phrases essentielles en 8 langues organisées par catégories. Utile partout dans le monde.</p>
+        </div>
+      </div>
+      <div class="mini-card reveal reveal-delay-2">
+        <span class="mini-card-icon">💱</span>
+        <div>
+          <h4>Convertisseur de devises</h4>
+          <p>Taux de change en temps réel. EUR, USD, GBP, XOF et bien d'autres — toujours à portée de main.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════════════════════
-     DOWNLOAD CTA
-═══════════════════════════════════════════════════════════ -->
+<!-- ═══ GALERIE DE SCREENSHOTS ════════════════════════════════ -->
+<section class="section section--dark" style="border-top: 1px solid rgba(200,169,110,0.15);">
+  <div class="section-inner">
+    <div class="section-header">
+      <p class="eyebrow">L'app en images</p>
+      <h2 class="headline reveal">Découvrez Ifenia.</h2>
+      <div class="divider reveal"><span></span></div>
+    </div>
+
+    <div class="gallery-phones reveal">
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-accueil2.jpg" alt="Mes voyages">
+      </div>
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-notifications.jpg" alt="Notifications">
+      </div>
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-parametres.jpg" alt="Paramètres et thèmes">
+      </div>
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-archives.jpg" alt="Archives de voyages">
+      </div>
+      <div class="phone phone--md">
+        <img src="screenshotsV2/s-lieux.jpg" alt="Exploration de lieux">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DOWNLOAD CTA ═══════════════════════════════════════════ -->
 <section class="download-section">
-  <p class="eyebrow">Disponible maintenant</p>
-  <h2 class="section-title reveal">Prêt pour votre prochain voyage ?</h2>
-  <div class="gold-divider"><span></span></div>
-  <p class="section-sub reveal">Téléchargez Ifenia gratuitement et commencez à organiser votre prochaine aventure dès aujourd'hui.</p>
+  <p class="eyebrow reveal">Gratuit · Sans publicité · Android &amp; iOS</p>
+  <h2 class="headline reveal" style="margin: 0.5rem auto 1rem;">Prêt pour votre<br>prochain voyage ?</h2>
+  <div class="divider reveal"><span></span></div>
+  <p class="subline reveal" style="margin: 0 auto 0.5rem; color: var(--text-dim);">Téléchargez Ifenia et commencez à planifier votre prochaine aventure dès aujourd'hui.</p>
 
   <div class="store-badges reveal">
     <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia" class="badge-wrap" target="_blank" rel="noopener">

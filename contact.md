@@ -3,51 +3,46 @@ layout: default
 title: Contact — Ifenia
 ---
 
-<!-- ═══ PAGE HERO ═══ -->
 <div class="page-hero">
-  <p class="eyebrow">Nous sommes à l'écoute</p>
-  <h1>Contactez-<em style="font-style:italic; color:var(--gold);">nous</em></h1>
-  <p>Une question, une suggestion ou un retour d'expérience ? Écrivez-nous.</p>
+  <p class="eyebrow">On est là pour vous</p>
+  <h1>Contactez-<em>nous.</em></h1>
+  <p>Une question, un bug, une idée ? On vous répond.</p>
 </div>
 
-<!-- ═══ CONTACT ═══ -->
-<section class="section section--navy">
+<section class="section section--ivory">
   <div class="section-inner">
 
     <div class="contact-grid">
       <div class="contact-card reveal">
         <span class="ico">✉️</span>
         <h3>Email</h3>
-        <p>Pour toute demande d'assistance, question ou suggestion :</p>
-        <p style="margin-top:1rem;">
+        <p>Pour toute question, suggestion ou demande d'assistance :</p>
+        <p style="margin-top:1rem; font-weight:500;">
           <a href="mailto:contact.ifenia@gmail.com">contact.ifenia@gmail.com</a>
         </p>
       </div>
 
-      <div class="contact-card reveal">
+      <div class="contact-card reveal reveal-delay-1">
         <span class="ico">🛠️</span>
         <h3>Support technique</h3>
-        <p>Pour un bug ou problème, merci d'inclure dans votre message :</p>
-        <p style="margin-top:0.8rem; font-size:0.85rem; color:var(--text-subtle);">
-          Modèle de l'appareil · Version OS · Version de l'app · Description du problème
-        </p>
+        <p>Pour un bug, merci d'inclure dans votre message : modèle de l'appareil, version OS, version de l'app et description du problème.</p>
       </div>
 
       <div class="contact-card reveal">
         <span class="ico">💡</span>
         <h3>Suggestions</h3>
-        <p>Vos idées font évoluer Ifenia. Partagez vos suggestions pour rendre l'expérience encore meilleure.</p>
+        <p>Vos idées font évoluer Ifenia. Partagez-les — on est toujours à l'écoute pour améliorer l'expérience.</p>
       </div>
 
-      <div class="contact-card reveal">
+      <div class="contact-card reveal reveal-delay-1">
         <span class="ico">⭐</span>
-        <h3>Évaluations</h3>
-        <p>Votre avis compte énormément. Laissez une note sur les stores pour soutenir le projet.</p>
+        <h3>Évaluation</h3>
+        <p>Un avis sur le store, c'est le meilleur moyen de soutenir le projet et de nous aider à grandir. Merci !</p>
       </div>
     </div>
 
-    <div style="text-align:center; margin-top:3rem;" class="reveal">
-      <p class="eyebrow">Disponible sur</p>
+    <div style="text-align:center;" class="reveal">
+      <p class="eyebrow">Retrouvez-nous sur</p>
       <div class="store-badges" style="justify-content:center; margin-top:2rem;">
         <a href="https://play.google.com/store/apps/details?id=com.tangni.ifenia" class="badge-wrap" target="_blank" rel="noopener">
           <img src="assets/google-play-badge.jpg" alt="Google Play">
